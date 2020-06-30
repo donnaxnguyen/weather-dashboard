@@ -1,0 +1,182 @@
+/* this is the specs */
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+html {
+    height: 100%;
+}
+
+/* this is the specs for my search button */
+button{
+    width: 60px;
+    height: auto;
+    background-color: #ffb9ff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* hover button specs */
+button:hover {
+    background-color: #c7c7c7;
+}
+
+/* button focus specs */
+button:focus {
+    border: none;
+    outline-color: #ffb9ff;
+}
+
+/* header specs */
+header {
+    width: auto;
+    height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0;
+    color: white;
+    background-color: #ffb9ff;
+}
+
+/* specs for my headers, paragraph, and saved city list */
+h1, h3, p, li {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* search city header */
+header h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* text input border */
+input {
+    border: 1px solid #ffb9ff;
+    border-radius: 5px;
+}
+
+/* specs for the weather info */
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 640px;
+    height: 100%;
+}
+
+/* search background */
+.search {
+    padding: 23px;
+    background-color: #e4e4e4;
+}
+
+.search h1 {
+    line-height: 30px;
+}
+
+/* forecast specs */
+.forecast {
+    margin-top: 25px;
+    border: solid 1px #e4e4e4;
+    margin-left: 5%;
+    min-width: auto;
+    padding: 15px 15px 15px 15px;
+    height: 40%;
+    text-align: center;
+}
+
+/* five day counter specs */
+ .five-day-container h1 {
+    margin-top: 25px;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.five-day-card {
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    background-color: #ffb9ff;
+}
+
+.five-day-container .card-text {
+    margin-bottom: 15px;
+    padding: 10px 30px 5px 10px;
+}
+
+.five-day-card h3 {
+    margin: 5px;
+}
+
+.five-day-card img {
+    margin-left: 10%;
+}
+
+.historyItems {
+    margin-top: 20px;
+}
+
+.historyItems:nth-child() {
+    margin-top: 20px;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+input {
+    height: 40px;
+    width: auto;
+}
+
+li:first-child {
+    height: 100%;
+    font-size: larger;
+    background-color: white;
+    border: solid 1px #cecfd2;
+    list-style: none;
+}
+
+li {
+    height: 100%;
+    font-size: larger;
+    background-color: white;
+    border: solid 1px #cecfd2;
+    border-radius: 0px 0px 0px 0px;
+    padding: 12px 5px 12px 15px;
+    list-style: none;
+}
+
+li:last-child {
+    height: 100%;
+    font-size: larger;
+    background-color: white;
+    border: solid 1px #cecfd2;
+    border-radius: 0px 0px 6px 6px;
+    padding: 12px 5px 12px 15px;
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    line-height: 50%;
+    margin: 5px 3px 5px 3px;
+    text-align: center;
+}
+
+.row * {
+    margin-right: 5px;
+    text-align: center;
+}

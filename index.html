@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <script src="https://kit.fontawesome.com/80833262c1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- this will be the title -->
     <title>Weather App</title>
@@ -18,53 +20,57 @@
     <div class="container">
         <!-- search class -->
         <div class="search">
-            <div class="row">
-                <!-- title to search for city -->
-                <h1>Search a City:</h1>
-            </div>
-            <div class="row">
-                <!-- search input , with an example text -->
-                <input type="text" class="searchInput" placeholder="Ex: San Francisco">
-                <!-- search button -->
-                <button type="submit" class="searchBtn">
-
-                <!-- button for search -->
-                <i class="______"></i>
-                </button>
-            </div>
-            <!-- history items from previous searches-->
-            <div class="_____"></div>
+        <div class="row">
+        <!-- title to search for city -->
+        <h1>Search a City:</h1>
         </div>
+            
+        <div class="row">
+        <!-- search input , with an example text -->
+        <input type="text" class="searchInput" placeholder="Ex: San Francisco">
+        
+        <!-- search button -->
+        <button type="submit" class="searchBtn">Search
+        </button>
+        </div>
+            
+        <!-- history items from previous searches-->
+        <div class="historyItems"></div>
+        </div>
+        
         <div class="col-two-container">
             <!-- variables will be in script.js -->
             <div class="forecast">
-                <div class="row">
-                    <h1 class="_____">City Name</h1>
-                    <h1 class="____"></h1>
-                    <img class="____"></img>
+                <div class="row" >
+                    <h1 class="cityName" style = "color: #c7c7c7;">City Name</h1>
+                    <h1 class="currentDate" style = "color: #c7c7c7;"></h1>
+                    <img class="weatherIcon"></img>
                 </div>
-                <!-- variables will be in script.js-->
+
+                <!-- variables will be in script.js -->
                 <div class="row">
-                    <p class="_____">Temperature:</p>
+                <p class="temp">Temperature:</p>
                 </div>
+
                 <div class="row">
-          
-                    <p class="______">Humidity:</p>
+                <p class="humidity">Humidity:</p>
                 </div>
+
                 <div class="row">
-     
-                    <p class="_____">TBD:</p>
+                <p class="uvIndex">UV Index:</p>
                 </div>
+
                 <div class="row">
-      
-                    <p class="______">UV Index:</p>
+                <p class="windSpeed">Wind Speed:</p>
                 </div>
+
             </div>
 
+            <!-- 5 day forecast -->
             <div class="five-day-container">
-                <h1>5-Day Forecast:</h1>
+                <h1 style = "color: #c7c7c7;">5-Day Forecast:</h1>
+                <!-- displays the forecast in rows -->
                 <div class="card-row">
-               <!-- 5 day forecast -->
                 </div>
             </div>
         </div>
